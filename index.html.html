@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <base href="https://api.vesey.vn/templates/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vesey - Thiệp Cưới Đẹp</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts for Wedding Cards -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&amp;family=Great+Vibes&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&amp;family=Alex+Brush&amp;family=Cinzel:wght@400;500;600&amp;family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;display=swap" rel="stylesheet">
+
+    <!-- WOW.js and Animate.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wow.js@1.2.2/css/libs/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+     <style>
+      /* Font Classes */
+      .font-dancing {
+        font-family: 'Dancing Script', cursive;
+      }
+      .font-great-vibes {
+        font-family: 'Great Vibes', cursive;
+      }
+      .font-playfair {
+        font-family: 'Playfair Display', serif;
+      }
+      .font-cormorant {
+        font-family: 'Cormorant Garamond', serif;
+      }
+      .font-alex-brush {
+        font-family: 'Alex Brush', cursive;
+      }
+      .font-cinzel {
+        font-family: 'Cinzel', serif;
+      }
+      .font-lora {
+        font-family: 'Lora', serif;
+      }
+
+      /* Color Classes */
+      .text-rose-gold {
+        color: #e8b4b8;
+      }
+      .text-champagne {
+        color: #f7e7ce;
+      }
+      .text-dusty-rose {
+        color: #d4a5a5;
+      }
+      .text-sage {
+        color: #9caf88;
+      }
+      .text-cream {
+        color: #fdf6e3;
+      }
+      .text-deep-red {
+        color: #8f0404;
+      }
+      .bg-rose-gold {
+        background-color: #e8b4b8;
+      }
+      .bg-champagne {
+        background-color: #f7e7ce;
+      }
+      .bg-dusty-rose {
+        background-color: #d4a5a5;
+      }
+      .bg-sage {
+        background-color: #9caf88;
+      }
+      .bg-cream {
+        background-color: #fdf6e3;
+      }
+      .bg-deep-red {
+        background-color: #8f0404;
+      }
+
+      .gradient-text {
+        background: linear-gradient(45deg, #e8b4b8, #d4a5a5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .wedding-shadow {
+        text-shadow: 2px 2px 4px rgba(212, 165, 165, 0.3);
+      }
+
+      .elegant-border {
+        border-image: linear-gradient(45deg, #e8b4b8, #d4a5a5) 1;
+      }
+
+     /* Custom Radio Button Styles */
+      .radio-custom .radio-dot {
+        display: none !important;
+      }
+      input[type='radio']:checked ~ .radio-custom .radio-dot {
+        display: block !important;
+      }
+      label:has(input[type='radio']:checked) .radio-dot {
+        display: block !important;
+      }
+    </style>
+  </head><body>
+            <link rel="stylesheet" href="/css/vesey.css"><div style="box-sizing: border-box;" class="max-w-[640px] pb-12 mx-auto min-h-screen" id="i8gx" data-uuid="690a94746d64f">
+  <header style="box-sizing: border-box;" class="text-center bg-white wow animate__fadeIn" id="ire6" data-moveable="true" data-hidable="true" data-copyable="true" data-removable="true" data-uuid="690a94746d66ac">
+    <div style="box-sizing: border-box;" class="bg-header relative" id="ipax7" data-uuid="690a94746dd66e" href="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad022abf8b31772945962.jpg">
+      <img style="box-sizing: border-box;" class="w-full" src="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad022abf8b31772945962.jpg" alt="Background Image" data-editable="true" data-uuid="690a94746d670" id="i9w3h">
+      <h1 style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="absolute left-1/2 top-0 font-dancing py-8 text-2xl text-white vs-header-title transform -translate-x-1/2" id="ieakc" data-editable="true" data-uuid="690a94746d673">
+        Chúng mình cưới!
+      </h1>
+      <div style="box-sizing: border-box;" class="absolute bottom-[-15%] left-1/2 transform -translate-x-1/2 bg-white w-[70%] rounded-t-[90%]" id="idx3l" data-uuid="690a94746d675">
+        <img style="box-sizing: border-box;" class="w-1/4 absolute top-[-15%] left-1/2 transform -translate-x-1/2" id="idxbg" src="./vs-template-lora/img-header-2.webp" alt="" data-editable="true" data-uuid="690a94746d678"><img style="box-sizing: border-box;" class="w-[70%] mx-auto py-12" id="i7s93" src="./vs-template-lora/img-header-3.webp" alt="Happy Wedding" data-editable="true" data-uuid="690a94746d67a">
+      </div>
+    </div>
+    <div style="box-sizing: border-box;" class="content-header mt-[150px] px-4" id="izfxo" data-uuid="690a94746d67d">
+      <p style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="text-center mx-auto py-12 font-dancing text-3xl text-rose-500 font-semibold" data-editable="true" data-uuid="690a94746d680" id="iwmwr">Đức Cảnh - Đoàn Thảo</p>
+      <p style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="text-center mx-auto font-dancing text-xl mb-6" id="iguwo" data-editable="true" data-uuid="690a94746d682">
+        Muốn được chia sẻ niềm vui này <br style="box-sizing: border-box;" id="ifctp" data-uuid="690a94746d685">
+          với bạn ngay lúc đầu tiên, <br style="box-sizing: border-box;" id="iyak2" data-uuid="690a94746d688">trân trọng
+          mời
+        <span style="box-sizing: border-box;" class="vs-attendance-name-text" id="io382" data-uuid="690a94746d68b">bạn</span>
+        cùng tham dự
+        <br style="box-sizing: border-box;" id="ix80h" data-uuid="690a94746d68d">
+          khoảnh khắc trọng đại trong cuộc đời chúng mình.
+      </p>
+      <p style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="text-center mx-auto font-dancing text-xl" id="iee4w" data-editable="true" data-uuid="690a94746d690">
+        Giữa muôn vàn thay đổi và những ngày bận rộn,
+        <br style="box-sizing: border-box;" id="ikpn9" data-uuid="690a94746d693">chúng mình mong được gặp lại bạn trong
+          ngày đặc biệt này. <br style="box-sizing: border-box;" id="il5av" data-uuid="690a94746d696">Không chỉ là một lễ
+          cưới,<br style="box-sizing: border-box;" id="i5tvn" data-uuid="690a94746d699">
+          mà còn như một buổi tiệc <br style="box-sizing: border-box;" id="izbgn" data-uuid="690a94746d69b">một dịp để
+          cùng <br style="box-sizing: border-box;" id="i0swn" data-uuid="690a94746d69e">những người bạn lâu ngày chưa gặp
+          chuyện trò, <br style="box-sizing: border-box;" id="iimmy" data-uuid="690a94746d6a1">tâm sự và chia sẻ niềm
+          hạnh phúc.
+      </p>
+      <h2 style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="text-center mx-auto font-dancing text-2xl text-rose-500 font-semibold mt-4" id="ihm5k" data-editable="true" data-uuid="690a94746d6a4">
+        L.O.V.E
+      </h2>
+    </div>
+  </header>
+  <main style="box-sizing: border-box;" class="container bg-white mx-auto py-8" id="ivmoi" data-moveable="true" data-hidable="true" data-copyable="true" data-removable="true" data-uuid="690a94746d6a7">
+    <section style="box-sizing: border-box;" class="wow animate__fadeInUp" id="ijdrx" data-uuid="690a94746d6ab">
+      <div style="box-sizing: border-box;" class="item-content-1 w-[70%] mx-auto relative" id="ivn6l" data-moveable="true" data-hidable="true" data-uuid="690a94746d6ae" href="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad024080e801772945984.jpg">
+        <img style="box-sizing: border-box;" class="w-full relative z-10" id="ipztv" src="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad024080e801772945984.jpg" alt="" data-editable="true" data-uuid="690a94746d6b1"><img style="box-sizing: border-box;" class="absolute top-[16%] right-[12%] z-0" id="izqrk" src="./vs-template-lora/img-content-1-2.webp" alt="" data-editable="true" data-uuid="690a94746d6b5"><img style="box-sizing: border-box;" class="absolute top-[16%] left-[12%] z-0" id="i0sw2" src="./vs-template-lora/img-content-1-3.webp" alt="" data-editable="true" data-uuid="690a94746d6b8"><img style="box-sizing: border-box;" class="w-[80%] mx-auto py-16" id="iqsy8" src="./vs-template-lora/img-content-1-4.webp" alt="" data-editable="true" data-uuid="690a94746d6bc">
+      </div>
+      <div style="box-sizing: border-box;" class="item-content-2 family w-[90%] mx-auto bg-white p-8 rounded-lg shadow-lg" id="iokcy" data-moveable="true" data-hidable="true" data-uuid="690a94746d6c0">
+        <div style="box-sizing: border-box;" class="family-info grid grid-cols-2 gap-8 mb-8" id="ifvnq" data-uuid="690a94746d6c3">
+          <div style="box-sizing: border-box;" class="groom-family text-center vs-groom-family" id="i3eh5" data-uuid="690a94746d6c6">
+            <h3 style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="font-dancing text-xl font-semibold text-gray-800 mb-4" id="itips" data-editable="true" data-uuid="690a94746d6ca">
+              NHÀ TRAI
+            </h3>
+            <p style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-gray-600 mb-2 vs-groom-father" data-editable="true" data-uuid="690a94746d6cd" id="ikwyk">Ông: Đỗ Xuân Chanh</p>
+            <p style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-gray-600 vs-groom-mother" data-editable="true" data-uuid="690a94746d6d1" id="igodt">Bà: Vũ Thị Hiền</p>
+          </div>
+          <div style="box-sizing: border-box;" class="bride-family text-center vs-bride-family" id="i363d" data-uuid="690a94746d6d5">
+            <h3 style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="font-dancing text-xl font-semibold text-gray-800 mb-4" id="ikzzr" data-editable="true" data-uuid="690a94746d6d8">
+              NHÀ GÁI
+            </h3>
+            <p style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-gray-600 mb-2 vs-bride-father" data-editable="true" data-uuid="690a94746d6dc" id="ic3ih">Ông: Đoàn Văn Tiến</p>
+            <p style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-gray-600 vs-bride-mother" data-editable="true" data-uuid="690a94746d6e0" id="ip0gy">Bà: Vũ Thị Quỳ</p>
+          </div>
+        </div>
+        <div style="box-sizing: border-box;" class="invitation text-center mb-6" id="i338g" data-uuid="690a94746d6e3">
+          <h2 style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="font-dancing text-2xl font-bold text-red-500 mb-4" id="i5k0n" data-editable="true" data-uuid="690a94746d6e7">
+            TRÂN TRỌNG KÍNH MỜI
+          </h2>
+          <p style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-gray-700 mb-3 vs-attendance-name-text" id="if736" data-editable="true" data-uuid="690a94746d6eb">
+            Bạn cùng gia đình
+          </p>
+          <p style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-gray-600 italic text-sm" id="ibift" data-editable="true" data-uuid="690a94746d6ef">
+            (Tới dự Lễ Thành Hôn của hai con chúng tôi)
+          </p>
+        </div>
+        <div style="box-sizing: border-box;" class="couple-names text-center mb-6" id="i4ikz" data-uuid="690a94746d6f3">
+          <div style="box-sizing: border-box;" class="flex items-center justify-center gap-4" id="imuxa" data-uuid="690a94746d6f8">
+            <span style="box-sizing: border-box; font-family: 'Alex Brush', cursive;" class="font-alex-brush text-2xl text-red-500 vs-groom-name" data-editable="true" data-uuid="690a94746d6fc" id="izoy6">Đức Cảnh</span><span style="box-sizing: border-box;" class="text-red-500 text-2xl" id="i1yp8" data-uuid="690a94746d700">💖</span><span style="box-sizing: border-box; font-family: 'Alex Brush', cursive;" class="font-alex-brush text-2xl text-red-500 vs-bride-name" data-editable="true" data-uuid="690a94746d704" id="ivv2d">Đoàn Thảo</span>
+          </div>
+        </div>
+        <div style="box-sizing: border-box;" class="event-details text-center mb-6" id="ic5oz" data-uuid="690a94746d708">
+          <div style="box-sizing: border-box;" class="mb-4" id="iyer6" data-uuid="690a94746d70c">
+            <h3 style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="font-dancing text-xl font-semibold text-gray-800 mb-2 vs-time" data-editable="true" data-uuid="690a94746d711" id="iqoki">Tổ chức vào lúc 10 giờ 00
+            </h3>
+            <p style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-gray-700 vs-event-date" data-editable="true" data-uuid="690a94746d715" id="it1l8">Chủ Nhật, ngày 22 tháng 03 năm 2026</p>
+            <p style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-gray-600 italic text-sm vs-lunar-date" data-editable="true" data-uuid="690a94746d719" id="ix9ci">(Tức ngày 04 tháng 02 năm 2026 Bính Ngọ)
+            </p>
+          </div>
+          <div style="box-sizing: border-box;" class="venue" id="ir7q1" data-uuid="690a94746d71e">
+            <h4 style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="font-dancing text-lg font-semibold text-gray-800 mb-2" id="i8783" data-editable="true" data-uuid="690a94746d722">
+              Tại gia đình Nhà Trai:
+            </h4>
+            <p style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-gray-700 vs-address" data-editable="true" data-uuid="690a94746d726" id="iszkqj">Nhà văn hoá Hội Yên, Nam Thanh Miện, Hải Phòng
+            </p>
+          </div>
+        </div>
+        <div style="box-sizing: border-box;" class="blessing text-center" id="ia8sm" data-uuid="690a94746d72a">
+          <p style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="font-dancing text-gray-600 italic text-sm" id="i44r8" data-editable="true" data-uuid="690a94746d72f">
+            Sự hiện diện của Quý khách là niềm vinh hạnh của gia đình chúng
+            tôi!
+          </p>
+        </div>
+      </div>
+      <div style="box-sizing: border-box;" class="item-content-2 w-full py-8" id="ivwxtb" data-moveable="true" data-hidable="true" data-uuid="690a94746d734" href="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad024c32ba31772945996.jpg">
+        <img style="box-sizing: border-box;" class="w-full" id="iz9l8g" src="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad024c32ba31772945996.jpg" alt="" data-editable="true" data-uuid="690a94746d738">
+        <div style="box-sizing: border-box;" class="w-[80%] mx-auto py-8" id="impkub" data-uuid="690a94746d73d">
+          <div style="box-sizing: border-box;" class="groom" id="ie5bll" data-uuid="690a94746d742">
+            <div style="box-sizing: border-box;" class="img-groom flex gap-10" id="ifyxab" data-uuid="690a94746d747" href="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad0232bc6221772945970.jpg">
+              <img style="box-sizing: border-box;" class="w-[30%] flex-1" id="itq2ri" src="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad0232bc6221772945970.jpg" alt="" data-editable="true" data-uuid="690a94746d74c">
+              <p style="box-sizing: border-box; font-family: Lora, serif;" class="text-[14px] flex-1 items-center mt-4 font-lora" id="iiluv8" data-editable="true" data-uuid="690a94746d751">
+                Giữa muôn vạn người, ta gặp nhau là duyên,
+                <br style="box-sizing: border-box;" id="ijhcgh" data-uuid="690a94746d756">
+                  nắm tay nhau là định mệnh,
+                <br style="box-sizing: border-box;" id="ilfb3g" data-uuid="690a94746d75b">cùng nhau đi đến cuối con
+                  đường — <br style="box-sizing: border-box;" id="i2av6h" data-uuid="690a94746d760">nơi tình yêu hóa thành
+                  vĩnh cửu.
+              </p>
+            </div>
+            <div style="box-sizing: border-box;" class="info-groom flex gap-10" id="it2zbj" data-uuid="690a94746d765">
+              <img style="box-sizing: border-box;" class="w-1/4 py-2 flex-1" src="./vs-template-lora/groom.webp" alt="" data-editable="true" data-uuid="690a94746d76a" id="imwzkf">
+              <div style="box-sizing: border-box;" class="flex flex-1 justify-center items-center" id="iyb1yy" data-uuid="690a94746d770">
+                <span style="box-sizing: border-box; font-family: Lora, serif; color: rgb(143, 4, 4);" class="text-[14px] text-deep-red font-lora" id="ifu2vl" data-editable="true" data-uuid="690a94746d775">Chú Rể /</span><span style="box-sizing: border-box; font-family: Lora, serif;" class="pt-4 pl-4 text-[14px] vs-groom-name font-lora" data-editable="true" data-uuid="690a94746d77a" id="imj7j8">Đức Cảnh</span>
+              </div>
+            </div>
+          </div>
+          <div style="box-sizing: border-box;" class="bride mt-8" id="ig1406" data-uuid="690a94746d77f">
+            <div style="box-sizing: border-box;" class="img-bride flex gap-10" id="i3ph6t" data-uuid="690a94746d784" href="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad024843dbc1772945992.jpg">
+              <img style="box-sizing: border-box;" class="w-[30%] flex-1" id="ip0uno" src="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad024843dbc1772945992.jpg" alt="" data-editable="true" data-uuid="690a94746d78a">
+              <p style="box-sizing: border-box; font-family: Lora, serif;" class="text-[14px] flex-1 items-center mt-4 font-lora" id="i4q5af" data-editable="true" data-uuid="690a94746d78f">
+                Hiện thực lúc này tựa như giấc mơ —
+                <br style="box-sizing: border-box;" id="i7bpb6" data-uuid="690a94746d79f">
+                  nhẹ nhàng, bay bổng và tươi đẹp.
+                <br style="box-sizing: border-box;" id="ic7nj4" data-uuid="690a94746d7a4">Chúng ta nắm tay nhau, bước
+                  vào tương lai rực rỡ, <br style="box-sizing: border-box;" id="ij3332" data-uuid="690a94746d7aa">từ
+                  khoảnh khắc này, cùng nhau đi qua tháng năm dài.
+              </p>
+            </div>
+            <div style="box-sizing: border-box;" class="info-bride flex gap-10" id="ixogqt" data-uuid="690a94746d7b0">
+              <img style="box-sizing: border-box;" class="w-1/4 py-2 flex-1" id="i9mzk2" src="./vs-template-lora/bride.webp" alt="" data-editable="true" data-uuid="690a94746d7b5">
+              <div style="box-sizing: border-box;" class="flex flex-1 justify-center items-center" id="iff8vw" data-uuid="690a94746d7bb">
+                <span style="box-sizing: border-box; font-family: Lora, serif; color: rgb(143, 4, 4);" class="text-[14px] text-deep-red font-lora" id="iwb4ms" data-editable="true" data-uuid="690a94746d7c1">Cô Dâu /</span><span style="box-sizing: border-box; font-family: Lora, serif;" class="pt-4 pl-4 text-[14px] vs-bride-name font-lora" data-editable="true" data-uuid="690a94746d7c7" id="inqf9j">Đoàn Thảo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="box-sizing: border-box;" class="item-content-3 w-[50%] mx-auto" id="ib2pql" data-moveable="true" data-hidable="true" data-uuid="690a94746d7cd">
+        <div style="box-sizing: border-box;" class="relative" id="i5oie4" data-uuid="690a94746d7d3"><img style="box-sizing: border-box;" class="w-[85%] mx-auto absolute top-[-5%] left-[7%]" id="it4rep" src="./vs-template-lora/img-content-3-1.webp" alt="" data-editable="true" data-uuid="690a94746d7d9">
+          <div style="box-sizing: border-box;" class="w-full overflow-hidden top-[30%] left-1/2 transform border-0 border-solid border-gray-400 rounded-[10.75rem]" id="ik700n" data-uuid="690a94746d7e0" href="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad0236890651772945974.jpg">
+            <img style="box-sizing: border-box;" class="object-cover" id="isotcd" src="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad0236890651772945974.jpg" alt="" data-editable="true" data-uuid="690a94746d7e6">
+          </div>
+        </div>
+      </div>
+      <div style="box-sizing: border-box;" class="item-content-4 wow animate__fadeIn" id="iz2cet" data-moveable="true" data-hidable="true" data-uuid="690a94746d7ec">
+        <p style="box-sizing: border-box; font-family: Lora, serif;" class="mx-auto text-center font-lora text-sm tracking-tight py-8" id="il8wml" data-editable="true" data-uuid="690a94746d7f3">
+          Tình yêu là bản nhạc dịu êm giữa đời,
+          <br style="box-sizing: border-box;" id="ialxgg" data-uuid="690a94746d7f9">
+            là ánh sáng trong mắt người ta thương,
+          <br style="box-sizing: border-box;" id="ivo796" data-uuid="690a94746d7ff">là những bước chân cùng đi qua năm
+            tháng, <br style="box-sizing: border-box;" id="id1cwl" data-uuid="690a94746d805">dù nắng hay mưa vẫn chẳng rời
+            xa.
+        </p><img style="box-sizing: border-box;" class="mx-auto w-[10%]" id="ib2jfk" src="./vs-template-lora/img-content-4-1.webp" alt="" data-editable="true" data-uuid="690a94746d80c">
+      </div>
+      <div style="box-sizing: border-box;" class="item-content-5 flex py-8 wow animate__slideInLeft" id="ixwmq9" data-moveable="true" data-hidable="true" data-uuid="690a94746d812">
+        <div style="box-sizing: border-box;" class="relative w-[90%]" id="ilsbdc" data-uuid="690a94746d819" href="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad033f6df821772946239.jpeg">
+          <img style="box-sizing: border-box;" class="w-[80%]" id="iwk6s2" src="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad033f6df821772946239.jpeg" alt="" data-editable="true" data-uuid="690a94746d820"><img style="box-sizing: border-box;" class="absolute bottom-[5%] right-[-1%] w-[25%]" id="iys7xx" src="./vs-template-lora/img-content-5-2.webp" alt="" data-editable="true" data-uuid="690a94746d826">
+        </div>
+        <p style="box-sizing: border-box; writing-mode: vertical-rl; text-orientation: mixed;" class="writing-mode-vertical-rl text-orientation-mixed transform rotate-0 pt-6" data-editable="true" data-uuid="690a94746d82d" id="ibnykx">
+          Sau bao năm, ta đã về bên nhau.
+        </p>
+      </div>
+      <div style="box-sizing: border-box; font-family: Lora, serif;" class="item-content-6 font-lora text-sm wow animate__slideInRight" id="isqatd" data-moveable="true" data-hidable="true" data-uuid="690a94746d833">
+        <p style="box-sizing: border-box;" class="w-1/2 pl-4" id="ieeinh" data-editable="true" data-uuid="690a94746d83a">
+          Anh hứa sẽ nắm tay em đi qua mọi mùa nắng mưa,
+          <br style="box-sizing: border-box;" id="ibidyh" data-uuid="690a94746d840">dù cuộc đời có đổi thay,
+          <br style="box-sizing: border-box;" id="itvcrw" data-uuid="690a94746d847">vẫn luôn yêu thương, trân trọng và
+            cùng nhau xây nên hạnh phúc mãi mãi.
+        </p><img style="box-sizing: border-box;" class="w-[50%] ml-auto mr-[5%] py-8" id="iayk48" src="./vs-template-lora/img-content-6-1.webp" alt="welcome" data-editable="true" data-uuid="690a94746d84e">
+      </div>
+      <div style="box-sizing: border-box;" class="item-content-7 w-[90%] mx-auto flex justify-center items-center wow animate__bounceIn" id="irshqr" data-moveable="true" data-hidable="true" data-uuid="690a94746d855">
+        <div style="box-sizing: border-box;" class="time-address flex-1" id="idjqes" data-uuid="690a94746d85c">
+          <div style="box-sizing: border-box;" class="time py-12" id="iexi69" data-uuid="690a94746d863"><img style="box-sizing: border-box;" class="w-1/2" id="isjhoh" src="./vs-template-lora/img-content-7-1.webp" alt="" data-editable="true" data-uuid="690a94746d86a">
+            <p style="box-sizing: border-box; font-family: 'Cormorant Garamond', serif;" class="font-cormorant text-gray-700 mb-1 vs-time text-xl" data-editable="true" data-uuid="690a94746d871" id="ibw7qw">16:00 PM
+            </p>
+            <p style="box-sizing: border-box; font-family: 'Cormorant Garamond', serif;" class="font-cormorant text-gray-700 vs-event-date text-xl" data-editable="true" data-uuid="690a94746d878" id="i17nbl">Thứ Bảy, ngày 21 tháng 03 năm 2026</p>
+          </div>
+          <div style="box-sizing: border-box;" class="address" id="ixaojs" data-uuid="690a94746d87f"><img style="box-sizing: border-box;" class="w-1/2" id="if9zcs" src="./vs-template-lora/img-content-7-2.webp" alt="" data-editable="true" data-uuid="690a94746d887">
+            <p style="box-sizing: border-box; font-family: 'Cormorant Garamond', serif;" class="font-cormorant text-gray-700 mb-1 text-xl" id="ig2035" data-editable="true" data-uuid="690a94746d88e">
+              Tại gia đình Nhà Trai:
+            </p>
+            <p style="box-sizing: border-box; font-family: 'Cormorant Garamond', serif;" class="font-cormorant text-gray-700 vs-address text-xl" data-editable="true" data-uuid="690a94746d895" id="i6xy1g">Nhà văn hoá Hội Yên, Nam Thanh Miện, Hải Phòng</p>
+          </div>
+        </div>
+        <div style="box-sizing: border-box;" class="flex-1" id="inkond" data-uuid="690a94746d89d" href="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad022ec84761772945966.jpg">
+          <img style="box-sizing: border-box;" id="iqa86j" src="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad0322913e01772946210.jpeg" alt="" data-editable="true" data-uuid="690a94746d8a4"><img style="box-sizing: border-box;" id="ioc882" src="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad022ec84761772945966.jpg" alt="" data-editable="true" data-uuid="690a94746d8ac">
+        </div>
+      </div>
+      <div style="box-sizing: border-box;" class="location w-[90%] mx-auto py-8 wow animate__fadeInUp" id="i64vjz" data-moveable="true" data-hidable="true" data-uuid="690a94746d8b3">
+        <div style="box-sizing: border-box;" class="location-map relative bg-white rounded-3xl p-8 shadow-md overflow-hidden" id="ix0fbv" data-uuid="690a94746d8bb">
+          <div style="box-sizing: border-box;" class="absolute inset-0 opacity-5" id="ibel9r" data-uuid="690a94746d8c2">
+            <div style="box-sizing: border-box; background-image: repeating-linear-gradient(
+                      45deg,
+                      #8f0404 0,
+                      #8f0404 1px,
+                      transparent 1px,
+                      transparent 20px
+                    ),
+                    repeating-linear-gradient(
+                      -45deg,
+                      #8f0404 0,
+                      #8f0404 1px,
+                      transparent 1px,
+                      transparent 20px
+                    );" class="absolute top-0 left-0 w-full h-full" data-uuid="690a94746d8c8" id="i5sa8c"></div>
+          </div>
+          <div style="box-sizing: border-box;" class="absolute top-0 left-0 w-32 h-32 border-t-2 border-l-2 border-red-200 rounded-tl-3xl" id="it86hh" data-uuid="690a94746d8ce"></div>
+          <div style="box-sizing: border-box;" class="absolute top-0 right-0 w-32 h-32 border-t-2 border-r-2 border-red-200 rounded-tr-3xl" id="ilkzqd" data-uuid="690a94746d8d4"></div>
+          <div style="box-sizing: border-box;" class="absolute bottom-0 left-0 w-32 h-32 border-b-2 border-l-2 border-red-200 rounded-bl-3xl" id="iycoce" data-uuid="690a94746d8da"></div>
+          <div style="box-sizing: border-box;" class="absolute bottom-0 right-0 w-32 h-32 border-b-2 border-r-2 border-red-200 rounded-br-3xl" id="i83t29" data-uuid="690a94746d8e0"></div>
+          <div style="box-sizing: border-box;" class="relative z-10" id="ii2iah" data-uuid="690a94746d8e6">
+            <div style="box-sizing: border-box;" class="text-center mb-8" id="if7ww7" data-uuid="690a94746d8ec">
+              <h2 style="box-sizing: border-box; font-family: 'Great Vibes', cursive; color: rgb(143, 4, 4);" class="font-great-vibes text-4xl text-deep-red mb-2" id="ieq6k1" data-editable="true" data-uuid="690a94746d8f2">
+                Địa Điểm
+              </h2>
+              <p style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-xl text-gray-700" id="i5xsxi" data-editable="true" data-uuid="690a94746d8f8">
+                Nơi tổ chức lễ cưới
+              </p>
+              <div style="box-sizing: border-box; background-color: rgb(143, 4, 4);" class="w-20 h-0.5 bg-deep-red mx-auto mt-4" id="i0i44g" data-uuid="690a94746d8ff"></div>
+            </div>
+            <div style="box-sizing: border-box;" class="text-center mb-6" id="iu7nwm" data-uuid="690a94746d905"><a style="box-sizing: border-box;" class="vs-popup-gmaps group inline-flex items-center gap-3 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out" href="https://www.google.com/maps?q=20°43'57.8, 106°14'21.5&amp;output=embed" rel="noopener noreferrer" data-uuid="690a94746d90b" id="idhere" data-name="20°43'57.8, 106°14'21.5"><svg style="box-sizing: border-box;" class="w-6 h-6 group-hover:animate-bounce" id="ii7r7d" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-uuid="690a94746d912">
+                  <path style="box-sizing: border-box;" id="i32qct" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" data-uuid="690a94746d918"></path>
+                </svg><span style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="text-lg font-dancing" data-uuid="690a94746d91f" id="is6qcf">Mở trong Google Maps</span><svg style="box-sizing: border-box;" class="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" id="ie7gyn" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-uuid="690a94746d925">
+                  <path style="box-sizing: border-box;" id="igvkqa" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" data-uuid="690a94746d92c"></path>
+                </svg></a></div>
+            <div style="box-sizing: border-box;" class="contact-info mt-8 text-center" id="iitjnf" data-uuid="690a94746d932">
+              <p style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-gray-600 mb-4" id="i76aaa" data-editable="true" data-uuid="690a94746d939">
+                Liên hệ để biết thêm thông tin chi tiết:
+              </p>
+              <div style="box-sizing: border-box;" class="flex flex-col sm:flex-row gap-4 justify-center" id="it5uok" data-uuid="690a94746d93f">
+                <span style="box-sizing: border-box; font-family: Lora, serif; color: rgb(143, 4, 4);" class="font-lora text-deep-red hover:underline vs-groom-phone" href="tel:+84123456789" data-editable="true" data-uuid="690a94746d946" id="ioyrf5"><span style="box-sizing: border-box;" class="mr-2" id="ij521r" data-uuid="690a94746d94d">📞</span>&nbsp;0962
+                701 518 (Chú rể)
+                </span><span style="box-sizing: border-box; font-family: Lora, serif; color: rgb(143, 4, 4);" class="font-lora text-deep-red hover:underline vs-bride-phone" data-editable="true" data-uuid="690a94746d954" id="i3h29j"><span style="box-sizing: border-box;" class="mr-2" id="ij79o8" data-uuid="690a94746d95a">📞</span>
+                0981 203 635 (Cô dâu)
+                </span>
+              </div>
+            </div>
+            <div style="box-sizing: border-box;" class="absolute top-4 right-4 text-red-300 text-2xl opacity-50" id="i8u5g5" data-uuid="690a94746d961">
+              📍
+            </div>
+            <div style="box-sizing: border-box;" class="absolute bottom-4 left-4 text-red-300 text-2xl opacity-50" id="i35g99" data-uuid="690a94746d968">
+              🗺️
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="box-sizing: border-box;" class="item-content-8 w-[90%] mx-auto py-8 wow animate__heartBeat" id="ixvmrm" data-moveable="true" data-hidable="true" data-uuid="690a94746d96f">
+        <div style="box-sizing: border-box;" class="countdown-timer relative bg-white rounded-3xl p-8 text-center shadow-md overflow-hidden" id="idr5c3" data-uuid="690a94746d976">
+          <div style="box-sizing: border-box;" class="absolute inset-0 bg-gradient-to-br from-red-50 via-pink-100 to-orange-50 opacity-60" id="irtg8h" data-uuid="690a94746d97d"></div>
+          <div style="box-sizing: border-box;" class="absolute top-10 right-10 w-40 h-40 bg-red-200 rounded-full opacity-10 animate-pulse" id="ionnxi" data-uuid="690a94746d983"></div>
+          <div style="box-sizing: border-box; animation-delay: 1s;" class="absolute bottom-10 left-10 w-40 h-40 bg-pink-200 rounded-full opacity-10 animate-pulse" data-uuid="690a94746d98a" id="iliqms"></div>
+          <div style="box-sizing: border-box;" class="relative z-10" id="ig0k14" data-uuid="690a94746d991">
+            <div style="box-sizing: border-box;" class="mb-8" id="ie9x2y" data-uuid="690a94746d998">
+              <h2 style="box-sizing: border-box; font-family: 'Great Vibes', cursive; color: rgb(143, 4, 4);" class="font-great-vibes text-4xl text-deep-red mb-2" id="i4x7mq" data-editable="true" data-uuid="690a94746d99f">
+                Đếm Ngược
+              </h2>
+              <p style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="font-dancing text-xl text-gray-700" id="i9qcvl" data-editable="true" data-uuid="690a94746d9a6">
+                Đến ngày trọng đại của chúng mình
+              </p>
+              <div style="box-sizing: border-box; background-color: rgb(143, 4, 4);" class="w-20 h-0.5 bg-deep-red mx-auto mt-4" id="ilaeoc" data-uuid="690a94746d9ad"></div>
+            </div>
+            <div style="box-sizing: border-box;" class="countdown-display grid grid-cols-4 gap-4 mb-8" id="iqvaoq" data-uuid="690a94746d9b4">
+              <div style="box-sizing: border-box;" class="time-unit bg-white rounded-2xl p-4 shadow-md" data-uuid="690a94746d9bb" id="iqbdc2">
+                <div style="box-sizing: border-box; color: rgb(143, 4, 4);" class="font-bold text-xs text-deep-red" id="days" data-uuid="690a94746d9c2">
+                  Ngày
+                </div>
+                <div style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="font-dancing text-lg text-gray-600 mt-2 vs-time-days" data-editable="true" data-uuid="690a94746d9ca" id="i24wdf">22</div>
+              </div>
+              <div style="box-sizing: border-box;" class="time-unit bg-white rounded-2xl p-4 shadow-md" id="i4flm9" data-uuid="690a94746d9d1">
+                <div style="box-sizing: border-box; color: rgb(143, 4, 4);" class="font-bold text-xs text-deep-red" id="hours" data-uuid="690a94746d9d8">
+                  Giờ
+                </div>
+                <div style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="font-dancing text-lg text-gray-600 mt-2 vs-time-hours" data-editable="true" data-uuid="690a94746d9df" id="iuyrok">10</div>
+              </div>
+              <div style="box-sizing: border-box;" class="time-unit bg-white rounded-2xl p-4 shadow-md" id="ix7491" data-uuid="690a94746d9e7">
+                <div style="box-sizing: border-box; color: rgb(143, 4, 4);" class="font-bold text-xs text-deep-red" id="minutes" data-uuid="690a94746d9ef">
+                  Phút
+                </div>
+                <div style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="font-dancing text-lg text-gray-600 mt-2 vs-time-minutes" data-editable="true" data-uuid="690a94746d9f7" id="ipjyol">00</div>
+              </div>
+              <div style="box-sizing: border-box;" class="time-unit bg-white rounded-2xl p-4 shadow-md" id="ig8dsq" data-uuid="690a94746d9ff">
+                <div style="box-sizing: border-box; color: rgb(143, 4, 4);" class="font-bold text-xs text-deep-red" id="seconds" data-uuid="690a94746da07">
+                  Giây
+                </div>
+                <div style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="font-dancing text-lg text-gray-600 mt-2 vs-time-seconds" data-editable="true" data-uuid="690a94746da0f" id="i06cxy">00</div>
+              </div>
+            </div>
+            <div style="box-sizing: border-box;" class="wedding-date-info" id="i3bwg8" data-uuid="690a94746da17">
+              <p style="box-sizing: border-box; font-family: 'Cormorant Garamond', serif;" class="font-cormorant text-gray-700 text-lg mb-2" id="imk01h" data-uuid="690a94746da1f">
+                <span style="box-sizing: border-box;" class="font-semibold vs-event-date" data-editable="true" data-uuid="690a94746da26" id="ifw0ct">Chủ Nhật, ngày 22 tháng 3 năm 2026</span>
+              </p>
+              <p style="box-sizing: border-box; font-family: 'Cormorant Garamond', serif;" class="font-cormorant text-gray-600 vs-time" data-editable="true" data-uuid="690a94746da2e" id="i7wjaj">
+                10:00 AM - Tại gia đình nhà trai
+              </p>
+            </div>
+            <div style="box-sizing: border-box;" class="absolute top-6 left-6 text-red-400 text-3xl opacity-40" id="iqu6ny" data-uuid="690a94746da36">
+              💕
+            </div>
+            <div style="box-sizing: border-box;" class="absolute top-6 right-6 text-red-400 text-3xl opacity-40" id="i3urdl" data-uuid="690a94746da3e">
+              💍
+            </div>
+            <div style="box-sizing: border-box;" class="absolute bottom-6 left-6 text-red-400 text-3xl opacity-40" id="i6x8zh" data-uuid="690a94746da45">
+              🌹
+            </div>
+            <div style="box-sizing: border-box;" class="absolute bottom-6 right-6 text-red-400 text-3xl opacity-40" id="ixurml" data-uuid="690a94746da4d">
+              💒
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="box-sizing: border-box;" class="item-content-9 w-[80%] mx-auto py-8 wow animate__fadeInUp" id="ialjky" data-moveable="true" data-hidable="true" data-uuid="690a94746da55" href="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad0226089be1772945958.jpg">
+        <img style="box-sizing: border-box;" id="ijr7bl" src="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad0226089be1772945958.jpg" alt="" data-editable="true" data-uuid="690a94746da5d">
+        <div style="box-sizing: border-box;" class="confirm" id="iwf5u8" data-uuid="690a94746da65">
+          <div style="box-sizing: border-box;" class="rsvp-form relative bg-white rounded-3xl p-8 shadow-md mt-8 overflow-hidden" id="ib0i2d" data-uuid="690a94746da6d">
+            <div style="box-sizing: border-box;" class="absolute inset-0" id="ikwrcl" data-uuid="690a94746da75"></div>
+            <div style="box-sizing: border-box;" class="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-orange-100 to-transparent opacity-20 rounded-full transform translate-x-32 -translate-y-32" id="i6xo6i" data-uuid="690a94746da7d"></div>
+            <div style="box-sizing: border-box;" class="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-red-100 to-transparent opacity-20 rounded-full transform -translate-x-32 translate-y-32" id="it1b98" data-uuid="690a94746da85"></div>
+            <div style="box-sizing: border-box;" class="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-transparent via-red-300 to-transparent" id="idy93l" data-uuid="690a94746da8d"></div>
+            <div style="box-sizing: border-box;" class="relative z-10" id="ipkpmf" data-uuid="690a94746da95">
+              <div style="box-sizing: border-box;" class="text-center mb-8" id="imrem8" data-uuid="690a94746da9d">
+                <h2 style="box-sizing: border-box; font-family: 'Great Vibes', cursive; color: rgb(143, 4, 4);" class="font-great-vibes text-4xl text-deep-red mb-2" id="iakcnl" data-editable="true" data-uuid="690a94746daa5">
+                  Xác Nhận Tham Dự
+                </h2>
+                <p style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="font-dancing text-xl text-gray-700" id="ip6ec5" data-editable="true" data-uuid="690a94746daae">
+                  Vui lòng cho chúng mình biết bạn sẽ đến dự
+                </p>
+                <div style="box-sizing: border-box; background-color: rgb(143, 4, 4);" class="w-20 h-0.5 bg-deep-red mx-auto mt-4" id="i1y4ad" data-uuid="690a94746dab6"></div>
+              </div>
+              <form style="box-sizing: border-box;" class="space-y-6 vs-attendance-form" id="rsvpForm" data-uuid="690a94746dabe">
+                <div style="box-sizing: border-box;" class="form-group" id="i7yv2x" data-uuid="690a94746dac7">
+                  <label style="box-sizing: border-box; font-family: Lora, serif;" class="block font-lora text-sm text-gray-800 mb-4" id="ipm2kf" data-editable="true" data-uuid="690a94746dacf">Bạn có thể tham dự không?</label>
+                  <div style="box-sizing: border-box;" class="flex gap-6 justify-center vs-attendance-status" id="i6entm" data-uuid="690a94746dad7">
+                    <label style="box-sizing: border-box;" class="flex items-center cursor-pointer" id="ivkqcv" data-uuid="690a94746dae0"><input style="box-sizing: border-box;" class="absolute opacity-0" id="i1v1cg" type="radio" name="decision" value="yes" checked="" required="" data-uuid="690a94746daea"><div style="box-sizing: border-box;" class="radio-custom w-6 h-6 border-2 border-deep-red rounded-full mr-3 flex items-center justify-center" id="i3anoi" data-uuid="690a94746daf4"><div style="box-sizing: border-box; background-color: rgb(143, 4, 4); display: block;" class="radio-dot w-3 h-3 bg-deep-red rounded-full" id="ive0yh" data-uuid="690a94746dafe"></div></div><span style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-sm text-gray-700" id="id2x1a" data-editable="true" data-uuid="690a94746db07">Có, tôi sẽ đến</span></label><label style="box-sizing: border-box;" class="flex items-center cursor-pointer" id="ir9sqh" data-uuid="690a94746db0f"><input style="box-sizing: border-box;" class="absolute opacity-0" id="iztgvc" type="radio" name="decision" value="no" required="" data-uuid="690a94746db18"><div style="box-sizing: border-box;" class="radio-custom w-6 h-6 border-2 border-gray-400 rounded-full mr-3 flex items-center justify-center" id="iwg3nj" data-uuid="690a94746db21"><div style="box-sizing: border-box; display: none;" class="radio-dot w-3 h-3 bg-gray-400 rounded-full" id="ixutuc" data-uuid="690a94746db2a"></div></div><span style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-sm text-gray-700" id="imkjyy" data-editable="true" data-uuid="690a94746db32">Không thể tham dự</span></label>
+                  </div>
+                </div>
+                <div style="box-sizing: border-box;" class="form-group" id="iblqv3" data-uuid="690a94746dac7">
+                  <label style="box-sizing: border-box; font-family: Lora, serif;" class="block font-lora text-sm text-gray-800 mb-4" id="ij90mi" data-editable="true" data-uuid="690a94746dacf">Bạn là khách của?</label>
+                  <div style="box-sizing: border-box;" class="flex gap-6 justify-center vs-attendance-status" id="i4z14r" data-uuid="690a94746dad7">
+                    <label style="box-sizing: border-box;" class="flex items-center cursor-pointer" id="ic4nti" data-uuid="690a94746dae0"><input style="box-sizing: border-box;" class="absolute opacity-0" id="i7uhug" type="radio" name="guest_of" value="bride" required="" data-uuid="690a94746daea"><div style="box-sizing: border-box;" class="radio-custom w-6 h-6 border-2 border-deep-red rounded-full mr-3 flex items-center justify-center" id="ihhbhf" data-uuid="690a94746daf4"><div style="box-sizing: border-box; background-color: rgb(143, 4, 4); display: none;" class="radio-dot w-3 h-3 bg-deep-red rounded-full" id="in3x0k" data-uuid="690a94746dafe"></div></div><span style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-sm text-gray-700" id="iuja8j" data-editable="true" data-uuid="690a94746db07">Cô dâu</span></label><label style="box-sizing: border-box;" class="flex items-center cursor-pointer" id="i8eu4o" data-uuid="690a94746db0f"><input style="box-sizing: border-box;" class="absolute opacity-0" id="izkiay" type="radio" name="guest_of" checked="" value="groom" required="" data-uuid="690a94746db18"><div style="box-sizing: border-box;" class="radio-custom w-6 h-6 border-2 border-gray-400 rounded-full mr-3 flex items-center justify-center" id="i1m3iz" data-uuid="690a94746db21"><div style="box-sizing: border-box; display: block;" class="radio-dot w-3 h-3 bg-gray-400 rounded-full" id="i2u5ji" data-uuid="690a94746db2a"></div></div><span style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-sm text-gray-700" id="i8jzij" data-editable="true" data-uuid="690a94746db32">Chú rể</span></label>
+                  </div>
+                </div>
+                <div style="box-sizing: border-box;" class="form-group" id="i3qgpa" data-uuid="690a94746db3b">
+                  <label style="box-sizing: border-box; font-family: Lora, serif;" class="block font-lora text-sm text-gray-800 mb-2" id="iiajzi" for="fullName" data-editable="true" data-uuid="690a94746db44">Họ và tên *</label><input style="box-sizing: border-box; font-family: 'Cormorant Garamond', serif;" class="w-full p-4 border-2 border-gray-200 rounded-2xl focus:border-deep-red focus:outline-none font-cormorant text-base vs-attendance-name" type="text" id="fullName" name="fullName" required="" placeholder="Nhập họ và tên của bạn" data-uuid="690a94746db4d">
+                </div>
+                <div style="box-sizing: border-box;" class="form-group" id="ieooll" data-uuid="690a94746db56">
+                  <label style="box-sizing: border-box; font-family: Lora, serif;" class="block font-lora text-sm text-gray-800 mb-2" id="iky42v" for="guestCount" data-editable="true" data-uuid="690a94746db5f">Số người tham dự (bao gồm bạn)</label><select style="box-sizing: border-box; font-family: Lora, serif;" class="w-full p-4 border-2 border-gray-200 rounded-2xl focus:border-deep-red focus:outline-none font-lora text-sm vs-number-of-guests" id="guestCount" name="guestCount" data-uuid="690a94746db68"><option style="box-sizing: border-box;" id="i853z1" value="1" data-uuid="690a94746db71">
+                        1 người
+                      </option><option style="box-sizing: border-box;" id="iteiyw" value="2" data-uuid="690a94746db87">
+                        2 người
+                      </option><option style="box-sizing: border-box;" id="idxjw2" value="3" data-uuid="690a94746db90">
+                        3 người
+                      </option><option style="box-sizing: border-box;" id="idw458" value="4" data-uuid="690a94746db99">
+                        4 người
+                      </option><option style="box-sizing: border-box;" id="iwn2us" value="5" data-uuid="690a94746dba3">
+                        5 người
+                      </option></select>
+                </div>
+                <div style="box-sizing: border-box;" class="form-group" id="ifx83r" data-uuid="690a94746dbac">
+                  <label style="box-sizing: border-box; font-family: Lora, serif;" class="block font-lora text-sm text-gray-800 mb-2" id="irxb8h" for="message" data-editable="true" data-uuid="690a94746dbb5">Lời nhắn / Ghi chú</label><textarea style="box-sizing: border-box; font-family: 'Cormorant Garamond', serif;" class="w-full p-4 border-2 border-gray-200 rounded-2xl focus:border-deep-red focus:outline-none font-cormorant text-sm resize-none vs-attendance-message" id="message" name="message" rows="4" placeholder="Gửi lời chúc hoặc ghi chú đặc biệt..." data-uuid="690a94746dbbf"></textarea>
+                </div>
+                <div style="box-sizing: border-box;" class="text-center" id="ipag0t" data-uuid="690a94746dbc9"><button style="box-sizing: border-box; font-family: 'Dancing Script', cursive; background-color: rgb(143, 4, 4);" class="bg-deep-red text-white font-dancing text-xl px-8 py-4 rounded-2xl hover:bg-red-700 transition-colors duration-300 shadow-lg" id="iua05q" type="submit" data-editable="true" data-uuid="690a94746dbd2">
+                      Gửi Xác Nhận
+                    </button></div>
+              </form>
+              <div style="box-sizing: border-box;" class="hidden text-center mt-8 p-6 bg-green-100 rounded-2xl" id="successMessage" data-uuid="690a94746dbdc">
+                <div style="box-sizing: border-box;" class="text-green-600 text-4xl mb-2" id="izso1f" data-uuid="690a94746dbe5">
+                  ✓
+                </div>
+                <h3 style="box-sizing: border-box; font-family: 'Dancing Script', cursive;" class="font-dancing text-2xl text-green-800 mb-2" id="ij09it" data-editable="true" data-uuid="690a94746dbef">
+                  Cảm ơn bạn!
+                </h3>
+                <p style="box-sizing: border-box; font-family: 'Cormorant Garamond', serif;" class="font-cormorant text-green-700" id="ihv5so" data-editable="true" data-uuid="690a94746dbf9">
+                  Chúng mình đã nhận được xác nhận của bạn.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div><img style="box-sizing: border-box;" class="mx-auto w-1/3 pt-12" id="ic6que" src="./vs-template-lora/img-content-9-2.webp" alt="" data-editable="true" data-uuid="690a94746dc02">
+        <p style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-md text-gray-700 leading-relaxed py-12 text-center" id="i6txys" data-editable="true" data-uuid="690a94746dc0c">
+          Tình yêu và hạnh phúc sẽ trọn vẹn hơn khi có sự hiện diện của bạn.
+          <br style="box-sizing: border-box;" id="ivj0i2" data-uuid="690a94746dc16">Mong rằng bạn sẽ chia sẻ cùng chúng
+            mình niềm vui trong ngày đặc biệt này.
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer style="box-sizing: border-box;" class="qr-code bg-white text-center py-16 wow animate__fadeInUp" id="izx429" data-moveable="true" data-hidable="true" data-copyable="true" data-removable="true" data-uuid="690a94746dc20">
+    <div style="box-sizing: border-box;" class="w-[90%] max-w-2xl mx-auto" id="irwb6p" data-uuid="690a94746dc2a">
+      <div style="box-sizing: border-box;" class="relative bg-white rounded-3xl p-10 overflow-hidden" id="i0v2md" data-uuid="690a94746dc34">
+        <div style="box-sizing: border-box;" class="absolute inset-0 opacity-50" id="iawjsf" data-uuid="690a94746dc3e">
+        </div>
+        <div style="box-sizing: border-box;" class="absolute -top-10 -right-10 w-48 h-48 bg-red-100 rounded-full opacity-20 blur-3xl" id="iw2crg" data-uuid="690a94746dc48"></div>
+        <div style="box-sizing: border-box;" class="absolute -bottom-10 -left-10 w-48 h-48 bg-pink-100 rounded-full opacity-20 blur-3xl" id="ifjznz" data-uuid="690a94746dc52"></div>
+        <div style="box-sizing: border-box;" class="relative z-10" id="i8x4nq" data-uuid="690a94746dc5c">
+          <div style="box-sizing: border-box;" class="mb-8" id="ipo7ir" data-uuid="690a94746dc66">
+            <div style="box-sizing: border-box;" class="inline-block mb-4" id="i8ei1i" data-uuid="690a94746dc70"><svg style="box-sizing: border-box;" class="w-20 h-4 mx-auto text-red-300" id="ilzkq7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20" fill="currentColor" data-uuid="690a94746dc7b">
+                <path style="box-sizing: border-box;" id="is3e4z" d="M50 15c-5-3-10-6-10-10a5 5 0 0 1 10 2 5 5 0 0 1 10-2c0 4-5 7-10 10Z" data-uuid="690a94746dc85">
+                </path>
+                <path style="box-sizing: border-box;" id="iru3af" d="M20 10h20M60 10h20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none" data-uuid="690a94746dc8f"></path>
+              </svg></div>
+            <h2 style="box-sizing: border-box; font-family: 'Great Vibes', cursive; color: rgb(143, 4, 4);" class="font-great-vibes text-4xl text-deep-red mb-3" id="i4wy7z" data-editable="true" data-uuid="690a94746dc9a">
+              Mừng Cưới Sớm?
+            </h2>
+            <p style="box-sizing: border-box; font-family: Lora, serif;" class="font-lora text-gray-600 text-lg" id="in1t9x" data-editable="true" data-uuid="690a94746dca4">
+              Đến cô dâu và chú rể
+            </p>
+            <div style="box-sizing: border-box; background-color: rgb(143, 4, 4);" class="w-20 h-0.5 bg-deep-red mx-auto mt-4" id="i95i61" data-uuid="690a94746dcaf"></div>
+          </div>
+          <div style="box-sizing: border-box;" class="qr-wrapper mb-8" id="inc9zv" data-uuid="690a94746dcb9">
+            <div style="box-sizing: border-box;" class="relative inline-block" id="iyl7hi" data-uuid="690a94746dcc4">
+              <div style="box-sizing: border-box;" class="absolute -top-2 -left-2 w-8 h-8 border-t-2 border-l-2 border-red-300" id="i7uich" data-uuid="690a94746dcce"></div>
+              <div style="box-sizing: border-box;" class="absolute -top-2 -right-2 w-8 h-8 border-t-2 border-r-2 border-red-300" id="i0wwm2" data-uuid="690a94746dcd9"></div>
+              <div style="box-sizing: border-box;" class="absolute -bottom-2 -left-2 w-8 h-8 border-b-2 border-l-2 border-red-300" id="i94kjr" data-uuid="690a94746dce3"></div>
+              <div style="box-sizing: border-box;" class="absolute -bottom-2 -right-2 w-8 h-8 border-b-2 border-r-2 border-red-300" id="izbcec" data-uuid="690a94746dcee"></div>
+              <div style="box-sizing: border-box;" class="qr-code-container w-56 h-56 bg-white rounded-xl shadow-lg p-4" id="ilgrup" data-uuid="690a94746dcf8" href="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad03e5a5d0b1772946405.jpg">
+                <img style="box-sizing: border-box;" class="w-full h-full object-contain" id="ihx12a" src="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad03e5a5d0b1772946405.jpg" alt="QR Code Wedding Invitation" loading="lazy" data-editable="true" data-uuid="690a94746dd03">
+              </div>
+            </div>
+          </div>
+          <div style="box-sizing: border-box;" class="banking-card relative max-w-md mx-auto" id="iemmoq" data-uuid="690a94746dd0e">
+            <div style="box-sizing: border-box;" class="absolute -top-3 left-1/2 transform -translate-x-1/2" id="ieizk5" data-uuid="690a94746dd1f">
+              <div style="box-sizing: border-box;" class="w-16 h-1 bg-gradient-to-r from-transparent via-red-300 to-transparent" id="igfbcx" data-uuid="690a94746dd2a"></div>
+            </div>
+            <p style="box-sizing: border-box;" class="text-center" data-editable="true" data-uuid="690a94746dd35" id="iylc9g">Đỗ Đức Cảnh<br style="box-sizing: border-box;" id="ihl6sf" data-uuid="690a94746dd3f">
+                Techcombank<br style="box-sizing: border-box;" id="irzgok" data-uuid="690a94746dd4a">19035764408011</p>
+            <div style="box-sizing: border-box;" class="absolute -bottom-3 left-1/2 transform -translate-x-1/2" id="i00v4f" data-uuid="690a94746dd55">
+              <div style="box-sizing: border-box;" class="w-16 h-1 bg-gradient-to-r from-transparent via-red-300 to-transparent" id="iiztjj" data-uuid="690a94746dd60"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<script>function addStyle(e){let t=document.createElement("style");t.textContent=e,document.head.append(t)}</script><script>
+  new WOW({
+    boxClass: 'wow',
+    animateClass: 'animate__animated',
+    offset: 100,
+    mobile: true,
+    live: true,
+    scrollContainer: null,
+    resetAnimation: false,
+  }).init();
+</script><script src="/js/font-loader.js"></script></body></html>
