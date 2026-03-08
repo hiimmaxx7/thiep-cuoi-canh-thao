@@ -4,7 +4,32 @@
     <base href="https://api.vesey.vn/templates/" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vesey - Thiệp Cưới Đẹp</title>
+    <title>Đức Cảnh & Đoàn Thảo - Thiệp Cưới</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Đức Cảnh & Đoàn Thảo - Thiệp Cưới" />
+    <meta
+      property="og:description"
+      content="Trân trọng kính mời bạn cùng gia đình đến dự lễ thành hôn của chúng mình vào ngày 22/03/2026."
+    />
+    <meta
+      property="og:image"
+      content="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad022abf8b31772945962.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://hiimmaxx7.github.io/thiep-cuoi-canh-thao/"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Đức Cảnh & Đoàn Thảo - Thiệp Cưới" />
+    <meta
+      name="twitter:description"
+      content="Trân trọng kính mời bạn đến dự lễ thành hôn của chúng mình."
+    />
+    <meta
+      name="twitter:image"
+      content="https://vs-photo.s3.ap-southeast-1.amazonaws.com/a13d87aa-5884-4027-a6da-efa7c7aa92e5/69ad022abf8b31772945962.jpg"
+    />
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -25,6 +50,17 @@
     />
 
     <style>
+      @keyframes spin-slow {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .animate-spin-slow {
+        animation: spin-slow 5s linear infinite;
+      }
       .font-dancing {
         font-family: "Dancing Script", cursive;
       }
@@ -106,6 +142,31 @@
     </style>
   </head>
   <body>
+    <audio id="weddingSong" loop>
+      <source src="./song.mp3" type="audio/mpeg" />
+    </audio>
+
+    <button
+      id="musicToggle"
+      class="fixed bottom-5 right-5 z-[100] w-12 h-12 bg-rose-500 text-white rounded-full shadow-lg flex items-center justify-center animate-bounce"
+    >
+      <svg
+        id="playIcon"
+        class="w-6 h-6"
+        fill="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path d="M8 5v14l11-7z" />
+      </svg>
+      <svg
+        id="pauseIcon"
+        class="w-6 h-6 hidden"
+        fill="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+      </svg>
+    </button>
     <link rel="stylesheet" href="/css/vesey.css" />
     <div
       style="box-sizing: border-box"
@@ -1687,5 +1748,29 @@
       })();
     </script>
     <script src="/js/font-loader.js"></script>
+    <script>
+      (function () {
+        const audio = document.getElementById("weddingSong");
+        const btn = document.getElementById("musicToggle");
+        const play = document.getElementById("playIcon");
+        const pause = document.getElementById("pauseIcon");
+
+        btn.onclick = () => {
+          if (audio.paused) {
+            audio.play();
+            btn.classList.remove("animate-bounce");
+            btn.classList.add("animate-spin-slow");
+            play.classList.add("hidden");
+            pause.classList.remove("hidden");
+          } else {
+            audio.pause();
+            btn.classList.add("animate-bounce");
+            btn.classList.remove("animate-spin-slow");
+            play.classList.remove("hidden");
+            pause.classList.add("hidden");
+          }
+        };
+      })();
+    </script>
   </body>
 </html>
